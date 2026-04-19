@@ -1,0 +1,31 @@
+@import "modern-normalize";
+@import "tailwindcss";
+
+@theme {
+  --button:        #829b91;
+  --button-hover:  #6d7b75;
+
+  --main:          #101828;   
+  --text:          #475467;   
+  --gray:          #6c717b;   
+
+  --inputs:        #f7f7f7;   
+  --badges:        #f2f4f7;   
+  --white:         #ffffff;   
+
+  --gray-light:    #dadde1;   
+  --rating:        #ffc531;   
+
+  --grey-green:    #829b91;   
+  --green-hover:   #6d7b75;   
+}
+
+body {
+  font-family: var(--font-inter), system-ui, sans-serif;
+  color: var(--main);
+  background: var(--white);
+}
+
+.swiper-slide-thumb-active .thumb-slide {
+  opacity: 1 !important;
+}
